@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="KNOWN_ISSUES.en.md">🇬🇧 English</a>
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="../en/KNOWN_ISSUES.md">🇬🇧 English</a>
 </p>
 
 # Известные ограничения

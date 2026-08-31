@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="KNOWN_ISSUES.md">🇷🇺 Русский</a> &nbsp;|&nbsp; <strong>🇬🇧 English</strong>
+  <a href="../ru/KNOWN_ISSUES.md">🇷🇺 Русский</a> &nbsp;|&nbsp; <strong>🇬🇧 English</strong>
 </p>
 
 # Known issues

@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="PRIVACY.en.md">🇬🇧 English</a>
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="../en/PRIVACY.md">🇬🇧 English</a>
 </p>
 
 # FACEIT UI — Политика конфиденциальности
