@@ -1,35 +1,64 @@
 # FACEIT UI — Privacy Policy
 
-**Last updated: August 30, 2026**
+**Last updated: August 31, 2026**
 
-FACEIT UI is a browser extension that provides a presentation and customization layer for the FACEIT website.
+FACEIT UI is a browser extension that provides a presentation and customization layer for [faceit.com](https://www.faceit.com). This policy describes what data the extension handles.
 
-## Data collection
+## Local use (not transmitted)
 
-FACEIT UI does not collect, sell, or share personal information.
+- Theme and panel settings, custom theme data, media library, and presets are stored locally in your browser (`chrome.storage.local`).
+- FACEIT UI does **not** run automatic telemetry or background data collection.
+- Visual changes to FACEIT pages are applied locally. The extension does not automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, extension storage contents, or your browsing history.
 
-The extension does not collect names, email addresses, passwords, payment information, precise location data, browsing history, or private messages.
+## Bug Report (voluntary, opt-in)
 
-## Website content
+The **Bug Report** feature in the FACEIT UI panel is the only way the extension sends data off your device.
 
-FACEIT UI operates on pages of the FACEIT website in order to modify the visual presentation of the interface. Website content is processed locally in the user's browser and is not transmitted to the developer or to third parties.
+**When it is sent:** only after you fill in the form, check the consent box, and click **Send**.
 
-## Storage
+**Purpose:** bug reporting and extension support.
 
-The extension may use the browser's local storage to save user preferences and theme settings.
+**Data you may submit:**
+
+- Problem **description** (required)
+- **Reproduction steps** (optional)
+- **Contact** information (optional; for example email or Telegram for a reply)
+- Current **FACEIT page URL** at the time of submission
+- Browser **user-agent**
+- Technical context: extension **version**, panel **locale**, active theme **name**, bug **category**, and submission **timestamp**
+
+**Not included in Bug Report:**
+
+- Browser or FACEIT cookies
+- FACEIT login, password, or session tokens
+- Contents of extension storage (themes, settings, imports, media)
+- Browsing history (only the current page URL is sent when you submit)
+- Page HTML/DOM or screenshots
+
+Before sending, the form asks you to confirm that you did not include sensitive data.
+
+## How Bug Reports are processed
+
+Submitted reports are transmitted over HTTPS through:
+
+1. **Cloudflare Worker** — `https://faceit-ui-intake.actually-question.workers.dev`
+2. **Render** — intake backend (`https://faceit-ui-intake.onrender.com`)
+3. **Resend** — email delivery to the extension developer
+
+Reports are delivered by email for manual review. FACEIT UI does not sell user data. Data from Bug Reports is used only for support and bug fixing.
+
+## Donate link
+
+The **Donate** button opens an external website in your browser. FACEIT UI does not process or transmit payment information.
 
 ## Remote code
 
-FACEIT UI does not download or execute remote JavaScript code. The extension's executable code is included in the published extension package.
-
-## Third parties
-
-FACEIT UI does not sell or transfer user data to third parties.
+FACEIT UI does not download or execute remote JavaScript. Executable code is included in the published extension package (Manifest V3).
 
 ## Changes
 
-This Privacy Policy may be updated when the functionality of FACEIT UI changes.
+This policy may be updated when FACEIT UI functionality changes. The **Last updated** date above reflects the latest revision.
 
 ## Contact
 
-For questions regarding this Privacy Policy or FACEIT UI, please use the support/contact method provided on the extension's store listing.
+For questions about this policy or FACEIT UI, use the support or contact method on the extension store listing, or submit a Bug Report from the extension panel.
