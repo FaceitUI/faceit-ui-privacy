@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="PUBLIC_WORKFLOW.ru.md">🇷🇺 Русский</a> &nbsp;|&nbsp; <strong>🇬🇧 English</strong>
+  <a href="../ru/PUBLIC_WORKFLOW.md">🇷🇺 Русский</a> &nbsp;|&nbsp; <strong>🇬🇧 English</strong>
 </p>
 
 # Public workflow
@@ -18,13 +18,13 @@ Do not publish here:
 
 - Extension source code or release packages
 - Secrets, API keys, or production credentials
-- Internal details from the private `faceit-ui-intake` repository beyond what the [Privacy Policy](ru/PRIVACY.md) already describes
+- Internal details from the private `faceit-ui-intake` repository beyond what the [Privacy Policy](../ru/PRIVACY.md) already describes
 
 ## KNOWN_ISSUES.md
 
 - Document only **confirmed** limitations or defects.
 - No speculative or unverified items; no listing standard browser behavior as a product bug.
-- After a fix: **close** the GitHub Issue, record the **version** where it was fixed, and update [KNOWN_ISSUES.md](ru/KNOWN_ISSUES.md) if needed. Do not delete Issue history.
+- After a fix: **close** the GitHub Issue, record the **version** where it was fixed, and update [KNOWN_ISSUES.md](../ru/KNOWN_ISSUES.md) if needed. Do not delete Issue history.
 
 ## CHANGELOG.md
 
