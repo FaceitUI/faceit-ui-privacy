@@ -1,64 +1,68 @@
-# FACEIT UI — Privacy Policy
+<p align="center">
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="PRIVACY.en.md">🇬🇧 English</a>
+</p>
 
-**Last updated: August 31, 2026**
+# FACEIT UI — Политика конфиденциальности
 
-FACEIT UI is a browser extension that provides a presentation and customization layer for [faceit.com](https://www.faceit.com). This policy describes what data the extension handles.
+**Последнее обновление: 31 августа 2026 г.**
 
-## Local use (not transmitted)
+FACEIT UI — браузерное расширение, которое добавляет слой оформления и настройки для [faceit.com](https://www.faceit.com). Эта политика описывает, какие данные обрабатывает расширение.
 
-- Theme and panel settings, custom theme data, media library, and presets are stored locally in your browser (`chrome.storage.local`).
-- FACEIT UI does **not** run automatic telemetry or background data collection.
-- Visual changes to FACEIT pages are applied locally. The extension does not automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, extension storage contents, or your browsing history.
+## Локальное использование (не передаётся)
 
-## Bug Report (voluntary, opt-in)
+- Настройки тем и панели, данные пользовательской темы, медиатека и пресеты хранятся локально в браузере (`chrome.storage.local`).
+- FACEIT UI **не** выполняет автоматическую телеметрию и фоновый сбор данных.
+- Визуальные изменения страниц FACEIT применяются локально. Расширение автоматически **не** отправляет HTML/DOM страницы, скриншоты, cookies, данные аутентификации или сессии FACEIT, содержимое хранилища расширения или историю просмотров.
 
-The **Bug Report** feature in the FACEIT UI panel is the only way the extension sends data off your device.
+## Bug Report (добровольно, по согласию)
 
-**When it is sent:** only after you fill in the form, check the consent box, and click **Send**.
+Функция **Bug Report** в панели FACEIT UI — единственный способ, которым расширение передаёт данные за пределы вашего устройства.
 
-**Purpose:** bug reporting and extension support.
+**Когда отправляется:** только после заполнения формы, установки галочки согласия и нажатия **Send**.
 
-**Data you may submit:**
+**Цель:** сообщения об ошибках и поддержка расширения.
 
-- Problem **description** (required)
-- **Reproduction steps** (optional)
-- **Contact** information (optional; for example email or Telegram for a reply)
-- Current **FACEIT page URL** at the time of submission
-- Browser **user-agent**
-- Technical context: extension **version**, panel **locale**, active theme **name**, bug **category**, and submission **timestamp**
+**Данные, которые вы можете отправить:**
 
-**Not included in Bug Report:**
+- **Описание** проблемы (обязательно)
+- **Шаги воспроизведения** (необязательно)
+- **Контактные** данные (необязательно; например email или Telegram для ответа)
+- **URL текущей страницы FACEIT** на момент отправки
+- **User-agent** браузера
+- Технический контекст: **версия** расширения, **локаль** панели, **название** активной темы, **категория** бага и **метка времени** отправки
 
-- Browser or FACEIT cookies
-- FACEIT login, password, or session tokens
-- Contents of extension storage (themes, settings, imports, media)
-- Browsing history (only the current page URL is sent when you submit)
-- Page HTML/DOM or screenshots
+**Не включается в Bug Report:**
 
-Before sending, the form asks you to confirm that you did not include sensitive data.
+- Cookies браузера или FACEIT
+- Логин, пароль или токены сессии FACEIT
+- Содержимое хранилища расширения (темы, настройки, импорты, медиа)
+- История просмотров (при отправке передаётся только URL текущей страницы)
+- HTML/DOM страницы или скриншоты
 
-## How Bug Reports are processed
+Перед отправкой форма просит подтвердить, что вы не включили конфиденциальные данные.
 
-Submitted reports are transmitted over HTTPS through:
+## Как обрабатываются Bug Report
+
+Отправленные отчёты передаются по HTTPS через:
 
 1. **Cloudflare Worker** — `https://faceit-ui-intake.actually-question.workers.dev`
 2. **Render** — intake backend (`https://faceit-ui-intake.onrender.com`)
-3. **Resend** — email delivery to the extension developer
+3. **Resend** — доставка email разработчику расширения
 
-Reports are delivered by email for manual review. FACEIT UI does not sell user data. Data from Bug Reports is used only for support and bug fixing.
+Отчёты доставляются по email для ручной проверки. FACEIT UI не продаёт пользовательские данные. Данные из Bug Report используются только для поддержки и исправления ошибок.
 
-## Donate link
+## Ссылка Donate
 
-The **Donate** button opens an external website in your browser. FACEIT UI does not process or transmit payment information.
+Кнопка **Donate** открывает внешний сайт в браузере. FACEIT UI не обрабатывает и не передаёт платёжную информацию.
 
-## Remote code
+## Удалённый код
 
-FACEIT UI does not download or execute remote JavaScript. Executable code is included in the published extension package (Manifest V3).
+FACEIT UI не загружает и не выполняет удалённый JavaScript. Исполняемый код входит в опубликованный пакет расширения (Manifest V3).
 
-## Changes
+## Изменения
 
-This policy may be updated when FACEIT UI functionality changes. The **Last updated** date above reflects the latest revision.
+Эта политика может обновляться при изменении функциональности FACEIT UI. Дата **Последнее обновление** выше отражает актуальную редакцию.
 
-## Contact
+## Контакты
 
-For questions about this policy or FACEIT UI, use the support or contact method on the extension store listing, or submit a Bug Report from the extension panel.
+По вопросам этой политики или FACEIT UI используйте способ связи из карточки расширения в магазине или отправьте Bug Report из панели расширения.

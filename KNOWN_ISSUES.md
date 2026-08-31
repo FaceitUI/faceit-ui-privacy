@@ -1,12 +1,16 @@
-# Known issues
+<p align="center">
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="KNOWN_ISSUES.en.md">🇬🇧 English</a>
+</p>
 
-Confirmed limitations and observations for FACEIT UI. Not a bug tracker.
+# Известные ограничения
 
-## Confirmed observations
+Подтверждённые ограничения и наблюдения для FACEIT UI. Это не баг-трекер.
 
-- **BETA.** The extension popup shows a **BETA** label.
-- **Presentation only.** FACEIT UI is a visual customization layer for `https://www.faceit.com/*`. It is not intended to change matchmaking, anti-cheat, API behavior, or FACEIT account features.
+## Подтверждённые наблюдения
 
-## Open defects
+- **BETA.** В popup расширения отображается метка **BETA**.
+- **Только визуальный слой.** FACEIT UI — слой визуальной настройки для `https://www.faceit.com/*`. Он не предназначен для изменения матчмейкинга, античита, поведения API или функций аккаунта FACEIT.
 
-No confirmed defects are listed here at this time.
+## Открытые дефекты
+
+На данный момент подтверждённых дефектов здесь не перечислено.

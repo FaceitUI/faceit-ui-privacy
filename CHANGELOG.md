@@ -1,20 +1,24 @@
-# Changelog
+<p align="center">
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="CHANGELOG.en.md">🇬🇧 English</a>
+</p>
 
-All notable **public** changes to the FACEIT UI extension. Presentation-only scope unless noted.
+# История изменений
+
+Все заметные **публичные** изменения расширения FACEIT UI. Только визуальный слой, если не указано иное.
 
 ## 0.2.0 — 2026-08-31
 
-- Extension version bumped to **0.2.0**.
-- **Bug Report** (opt-in): voluntary reports from the FACEIT UI panel with explicit consent; no automatic telemetry.
-- Bug Report delivery via HTTPS intake (Cloudflare Worker → Render → email); no background service worker for intake.
-- `host_permissions` for the production intake endpoint only (plus reserved `intake.faceit-ui.app`).
-- Privacy Policy updated for Bug Report data flow (this repository).
+- Версия расширения обновлена до **0.2.0**.
+- **Bug Report** (opt-in): добровольные отчёты из панели FACEIT UI с явным согласием; автоматической телеметрии нет.
+- Доставка Bug Report через HTTPS intake (Cloudflare Worker → Render → email); для intake нет фонового service worker.
+- `host_permissions` только для production intake endpoint (плюс зарезервированный `intake.faceit-ui.app`).
+- Политика конфиденциальности обновлена с учётом потока данных Bug Report (этот репозиторий).
 
 ## 0.1.0 — 2026-08-29
 
-- First packaged **Chrome MV3** release.
-- Visual customization layer for `https://www.faceit.com/*` (themes, panel, local settings).
-- Single permission: **`storage`** (`chrome.storage.local` for themes and preferences).
-- Themes include Original, Soft Light, Graphite, Rainbow, and Custom; RU/EN panel language.
-- Import / export of Custom theme settings.
-- No background service worker; executable code shipped in the extension package only.
+- Первый упакованный релиз **Chrome MV3**.
+- Визуальный слой для `https://www.faceit.com/*` (темы, панель, локальные настройки).
+- Одно разрешение: **`storage`** (`chrome.storage.local` для тем и настроек).
+- Темы: Original, Soft Light, Graphite, Rainbow и Custom; язык панели RU/EN.
+- Импорт / экспорт настроек пользовательской темы (Custom).
+- Без фонового service worker; исполняемый код только в пакете расширения.

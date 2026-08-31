@@ -1,20 +1,24 @@
-# FACEIT UI — Public information
+<p align="center">
+  <strong>🇷🇺 Русский</strong> &nbsp;|&nbsp; <a href="README.en.md">🇬🇧 English</a>
+</p>
 
-Public documentation for the [FACEIT UI](https://www.faceit.com) browser extension (Chrome / Edge, Manifest V3).
+# FACEIT UI — публичная информация
 
-This repository contains **privacy and release information only**. It does not include extension source code or release packages.
+Публичная документация для браузерного расширения [FACEIT UI](https://www.faceit.com) (Chrome / Edge, Manifest V3).
 
-## Documents
+Этот репозиторий содержит **только информацию о конфиденциальности и релизах**. Исходный код расширения и пакеты для установки здесь **не публикуются**.
 
-| Document | Description |
-|----------|-------------|
-| [Privacy Policy (web)](https://dogshater.github.io/faceit-ui-privacy/) | HTTPS URL for store listings (Microsoft Edge Add-ons, etc.) |
-| [Privacy Policy (Markdown)](PRIVACY.md) | Same policy in Markdown |
-| [Changelog](CHANGELOG.md) | Version history |
-| [Known issues](KNOWN_ISSUES.md) | Current limitations and observations |
+## Документы
 
-## About FACEIT UI
+| Документ | Описание |
+|----------|----------|
+| [Политика конфиденциальности (веб)](https://dogshater.github.io/faceit-ui-privacy/) | HTTPS-URL для магазинов расширений (Microsoft Edge Add-ons и др.) |
+| [Политика конфиденциальности (Markdown)](PRIVACY.md) | Та же политика в формате Markdown |
+| [История изменений](CHANGELOG.md) | Версии и заметные изменения |
+| [Известные ограничения](KNOWN_ISSUES.md) | Подтверждённые наблюдения и ограничения |
 
-FACEIT UI is a **presentation-only** overlay for `https://www.faceit.com/*`: themes, panel settings, and visual customization. It does not modify matchmaking, anti-cheat, or FACEIT account features.
+## О FACEIT UI
 
-**Current extension version:** 0.2.0 (see [Changelog](CHANGELOG.md)).
+FACEIT UI — **только визуальный** слой для `https://www.faceit.com/*`: темы, настройки панели и кастомизация интерфейса. Расширение **не изменяет** матчмейкинг, античит и функции аккаунта FACEIT.
+
+**Текущая версия расширения:** 0.2.0 (см. [История изменений](CHANGELOG.md)).
