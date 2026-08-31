@@ -6,6 +6,15 @@
 
 All notable **public** changes to the FACEIT UI extension. Presentation-only scope unless noted.
 
+## 0.2.1 — 2026-09-01
+
+- Extension version bumped to **0.2.1**.
+- Improved theme loading: reduced bright flash on page reload; images load more reliably when switching themes and presets.
+- Improved preset import and export.
+- **GitHub** button added to the FACEIT UI panel.
+- Updated extension icon in the browser toolbar.
+- Improved **Mono** theme readability when adjusting brightness.
+
 ## 0.2.0 — 2026-08-31
 
 - Extension version bumped to **0.2.0**.
