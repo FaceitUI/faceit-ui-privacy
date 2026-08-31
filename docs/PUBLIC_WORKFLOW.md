@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="PUBLIC_WORKFLOW.ru.md">🇷🇺 Русский</a> &nbsp;|&nbsp; <strong>🇬🇧 English</strong>
+</p>
+
 # Public workflow
 
 How we handle user-facing problems and release notes in this repository.
