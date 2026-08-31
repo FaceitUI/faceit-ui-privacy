@@ -14,13 +14,13 @@ Do not publish here:
 
 - Extension source code or release packages
 - Secrets, API keys, or production credentials
-- Internal details from the private `faceit-ui-intake` repository beyond what the [Privacy Policy](PRIVACY.md) already describes
+- Internal details from the private `faceit-ui-intake` repository beyond what the [Privacy Policy](privacy/PRIVACY.md) already describes
 
 ## KNOWN_ISSUES.md
 
 - Document only **confirmed** limitations or defects.
 - No speculative or unverified items; no listing standard browser behavior as a product bug.
-- After a fix: **close** the GitHub Issue, record the **version** where it was fixed, and update [KNOWN_ISSUES.md](KNOWN_ISSUES.md) if needed. Do not delete Issue history.
+- After a fix: **close** the GitHub Issue, record the **version** where it was fixed, and update [KNOWN_ISSUES.md](known-issues/KNOWN_ISSUES.md) if needed. Do not delete Issue history.
 
 ## CHANGELOG.md
 
