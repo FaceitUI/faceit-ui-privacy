@@ -12,7 +12,7 @@ This repository contains **privacy and release information only**. It does not i
 
 | Document | Description |
 |----------|-------------|
-| [Privacy Policy (web)](https://dogshater.github.io/faceit-ui-privacy/) | HTTPS URL for store listings (Microsoft Edge Add-ons, etc.) |
+| [Privacy Policy (web)](https://faceitui.github.io/faceit-ui/) | HTTPS URL for store listings (Microsoft Edge Add-ons, etc.) |
 | [Privacy Policy (Markdown)](docs/en/PRIVACY.md) | Same policy in Markdown |
 | [Changelog](docs/en/CHANGELOG.md) | Version history |
 | [Known issues](docs/en/KNOWN_ISSUES.md) | Current limitations and observations |

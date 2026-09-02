@@ -12,7 +12,7 @@
 
 | Документ | Описание |
 |----------|----------|
-| [Политика конфиденциальности (веб)](https://dogshater.github.io/faceit-ui-privacy/) | HTTPS-URL для магазинов расширений (Microsoft Edge Add-ons и др.) |
+| [Политика конфиденциальности (веб)](https://faceitui.github.io/faceit-ui/) | HTTPS-URL для магазинов расширений (Microsoft Edge Add-ons и др.) |
 | [Политика конфиденциальности (Markdown)](docs/ru/PRIVACY.md) | Та же политика в формате Markdown |
 | [История изменений](docs/ru/CHANGELOG.md) | Версии и заметные изменения |
 | [Известные ограничения](docs/ru/KNOWN_ISSUES.md) | Подтверждённые наблюдения и ограничения |
