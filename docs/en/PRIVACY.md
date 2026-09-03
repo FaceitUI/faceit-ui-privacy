@@ -10,7 +10,8 @@ FACEIT UI is a browser extension that provides a presentation and customization 
 
 ## Local use (not transmitted)
 
-- Theme and panel settings, custom theme data, media library, and presets are stored locally in your browser (`chrome.storage.local`).
+- Theme and panel settings, custom theme data, and presets are stored locally in your browser (`chrome.storage.local`).
+- Media files (media library) are stored locally in the browser’s IndexedDB.
 - FACEIT UI does **not** run automatic telemetry or background data collection.
 - Visual changes to FACEIT pages are applied locally. The extension does **not** automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, full contents of extension storage, or your browsing history.
 
@@ -58,6 +59,10 @@ Submitted reports are transmitted over HTTPS through:
 3. **Resend** — email delivery to the extension developer
 
 Reports are delivered by email for manual review. FACEIT UI does not sell user data. Data from Bug Reports is used for support and bug fixing.
+
+### Retention
+
+Bug reports and any locally saved attachments related to them are retained for no more than 30 days and then deleted. This rule applies to the developer mailbox and the local helper used when processing reports. To request earlier deletion, use the contact method on the extension store listing or submit a Bug Report from the extension panel.
 
 ## Donate link
 

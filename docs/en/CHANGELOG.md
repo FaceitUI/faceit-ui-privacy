@@ -18,8 +18,9 @@ All notable **public** changes to the FACEIT UI extension. Presentation-only sco
 - Fixed GIF loading when the color is `#000000` (pure black no longer breaks media).
 
 ### Bug reports
-- You can select page elements and attach their list to a report for diagnostics.
+- You can select page elements and attach their list to a report for diagnostics — only if you check the corresponding box.
 - Report form validation is clearer: you can see what is missing before submitting.
+- Browser permissions are used to display FACEIT UI and for report features the user explicitly opts into.
 
 ## 0.3.0 — Unreleased — 2026-09-02
 
@@ -32,9 +33,10 @@ All notable **public** changes to the FACEIT UI extension. Presentation-only sco
 - GIF backgrounds can now repeat to fill the selected block without stretching small GIFs.
 
 ### Bug reports
-- You can optionally attach a technical snapshot of your extension settings to a report.
-- You can optionally attach a screenshot of the current FACEIT tab. The first submission can take up to 30 seconds.
+- You can optionally attach a technical snapshot of your extension settings to a report — only if you check the box.
+- You can optionally attach a screenshot of the current FACEIT tab — only if you check the box. The first submission can take up to 30 seconds.
 - The report form is more compact and submission errors are easier to understand.
+- Browser permissions are used to display FACEIT UI and for report features the user explicitly opts into (for example screenshots).
 
 ### Fixes
 - Improved transparent backgrounds when opening profiles and nested pages.
@@ -48,7 +50,7 @@ All notable **public** changes to the FACEIT UI extension. Presentation-only sco
 - Updated the extension icon in the browser toolbar.
 - Improved **Mono** theme readability when adjusting brightness.
 
-## 0.2.0 — Unreleased — 2026-08-31
+## 0.2.0 — Release — 2026-08-31
 
 - Extension version bumped to **0.2.0**.
 - **Bug Report** (opt-in): voluntary reports from the FACEIT UI panel with explicit consent; no automatic telemetry.

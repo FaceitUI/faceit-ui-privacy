@@ -39,7 +39,8 @@
 
   <h2>Local use (not transmitted)</h2>
   <ul>
-    <li>Theme and panel settings, custom theme data, media library, and presets are stored locally in your browser (<code>chrome.storage.local</code>).</li>
+    <li>Theme and panel settings, custom theme data, and presets are stored locally in your browser (<code>chrome.storage.local</code>).</li>
+    <li>Media files (media library) are stored locally in the browser’s IndexedDB.</li>
     <li>FACEIT UI does <strong>not</strong> run automatic telemetry or background data collection.</li>
     <li>Visual changes to FACEIT pages are applied locally. The extension does <strong>not</strong> automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, full contents of extension storage, or your browsing history.</li>
   </ul>
@@ -90,6 +91,13 @@
   <p>
     Reports are delivered by email for manual review. FACEIT UI does not sell user data.
     Data from Bug Reports is used for support and bug fixing.
+  </p>
+
+  <h3>Retention</h3>
+  <p>
+    Bug reports and any locally saved attachments related to them are retained for no more than 30 days and then deleted.
+    This rule applies to the developer mailbox and the local helper used when processing reports.
+    To request earlier deletion, use the contact method on the extension store listing or submit a Bug Report from the extension panel.
   </p>
 
   <h2>Donate link</h2>
