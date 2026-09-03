@@ -6,6 +6,21 @@
 
 All notable **public** changes to the FACEIT UI extension. Presentation-only scope unless noted.
 
+## 0.4.0 — Unreleased — 2026-09-04
+
+### New interface
+- The New UI panel has been reworked: sections and Custom navigation are clearer and easier to use.
+- Color and transparency controls are available for supported themes and elements.
+- RU and EN panel copy has been polished.
+
+### Backgrounds and GIFs
+- Backgrounds and GIFs are easier to choose, preview, and edit in the media editor.
+- Fixed GIF loading when the color is `#000000` (pure black no longer breaks media).
+
+### Bug reports
+- You can select page elements and attach their list to a report for diagnostics.
+- Report form validation is clearer: you can see what is missing before submitting.
+
 ## 0.3.0 — Unreleased — 2026-09-02
 
 ### New interface
