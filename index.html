@@ -19,9 +19,10 @@
       body { color: #eee; background: #111; }
       a { color: #8cb4ff; }
     }
-    h1, h2 { line-height: 1.25; }
+    h1, h2, h3 { line-height: 1.25; }
     h1 { font-size: 1.6rem; }
     h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    h3 { font-size: 1.05rem; margin-top: 1.25rem; }
     ul, ol { padding-left: 1.25rem; }
     li + li { margin-top: 0.35rem; }
     p, ul, ol { margin: 0.75rem 0; }
@@ -30,7 +31,7 @@
 </head>
 <body>
   <h1>FACEIT UI — Privacy Policy</h1>
-  <p><strong>Last updated:</strong> 31 August 2026</p>
+  <p><strong>Last updated:</strong> September 4, 2026</p>
   <p>
     FACEIT UI is a browser extension that provides a presentation and customization layer for
     <a href="https://www.faceit.com">faceit.com</a>. This policy describes what data the extension handles.
@@ -40,33 +41,44 @@
   <ul>
     <li>Theme and panel settings, custom theme data, media library, and presets are stored locally in your browser (<code>chrome.storage.local</code>).</li>
     <li>FACEIT UI does <strong>not</strong> run automatic telemetry or background data collection.</li>
-    <li>Visual changes to FACEIT pages are applied locally. The extension does not automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, extension storage contents, or your browsing history.</li>
+    <li>Visual changes to FACEIT pages are applied locally. The extension does <strong>not</strong> automatically send page HTML/DOM, screenshots, cookies, FACEIT authentication or session data, full contents of extension storage, or your browsing history.</li>
   </ul>
 
   <h2>Bug Report (voluntary, opt-in)</h2>
   <p>The <strong>Bug Report</strong> feature in the FACEIT UI panel is the only way the extension sends data off your device.</p>
-  <p><strong>When it is sent:</strong> only after you fill in the form, check the consent box, and click <strong>Send</strong>.</p>
+  <p><strong>When it is sent:</strong> only after you provide a required description, check the consent box, and click <strong>Send</strong>.</p>
   <p><strong>Purpose:</strong> bug reporting and extension support.</p>
 
-  <h3>Data you may submit</h3>
+  <h3>Base report (always included on submit)</h3>
   <ul>
     <li>Problem <strong>description</strong> (required)</li>
     <li><strong>Reproduction steps</strong> (optional)</li>
     <li><strong>Contact</strong> information (optional; for example email or Telegram for a reply)</li>
-    <li>Current <strong>FACEIT page URL</strong> at the time of submission</li>
+    <li>Current page <strong>URL</strong> at the time of submission</li>
     <li>Browser <strong>user-agent</strong></li>
-    <li>Technical context: extension <strong>version</strong>, panel <strong>locale</strong>, active theme <strong>name</strong>, bug <strong>category</strong>, and submission <strong>timestamp</strong></li>
+    <li>Extension <strong>version</strong>, panel <strong>locale</strong>, <strong>theme</strong>, bug <strong>category</strong>, and submission <strong>timestamp</strong></li>
   </ul>
 
-  <h3>Not included in Bug Report</h3>
+  <h3>Optional attachments (only if you check the box)</h3>
+  <p>
+    All attachments are <strong>optional</strong>. You can leave them unchecked — that is how you opt out.
+    None of the items below are added to a report unless you separately check the corresponding box.
+  </p>
+  <ul>
+    <li><strong>Technical snapshot</strong> — limited technical context: version, locale, theme, current URL, viewport, panel state, and settings <strong>without</strong> media images, cookies, or tokens.</li>
+    <li><strong>Screenshot</strong> — a capture of the visible faceit.com tab and the FACEIT UI panel. It may show your nickname, avatar, and on-screen page content.</li>
+    <li><strong>Selected elements list</strong> — numbered technical metadata for elements you chose yourself (selector / tag / class / geometry / URL) for diagnostics. This is <strong>not</strong> full HTML/DOM, <strong>not</strong> page text, and <strong>not</strong> input field values.</li>
+  </ul>
+
+  <h3>What the extension does not send automatically</h3>
   <ul>
     <li>Browser or FACEIT cookies</li>
-    <li>FACEIT login, password, or session tokens</li>
-    <li>Contents of extension storage (themes, settings, imports, media)</li>
-    <li>Browsing history (only the current page URL is sent when you submit)</li>
-    <li>Page HTML/DOM or screenshots</li>
+    <li>Passwords, session tokens, or payment data</li>
+    <li>Messages</li>
+    <li>Browsing history (only the current page URL is sent)</li>
+    <li>Full contents of extension storage (themes, imports, media, etc.)</li>
   </ul>
-  <p>Before sending, the form asks you to confirm that you did not include sensitive data.</p>
+  <p>Before sending, the form asks you to confirm that you did not include sensitive data in the description or contact fields.</p>
 
   <h2>How Bug Reports are processed</h2>
   <p>Submitted reports are transmitted over HTTPS through:</p>
@@ -77,7 +89,7 @@
   </ol>
   <p>
     Reports are delivered by email for manual review. FACEIT UI does not sell user data.
-    Data from Bug Reports is used only for support and bug fixing.
+    Data from Bug Reports is used for support and bug fixing.
   </p>
 
   <h2>Donate link</h2>
